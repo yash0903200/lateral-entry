@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a = 2016;
+	// int b = 4;
+	cin>>a;
+	// cout<<"num is divisible by 4 "<<a % b;
+int c= a%4;
+if(c==0)
+cout<<"this is a leap year";
+else
+cout<<"this is not a leap year";
+
+	return 0;
+}
