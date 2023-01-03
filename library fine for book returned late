@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	float days;
+cout<<"num of days "<<endl;
+cin>>days;
+if(days<=5)cout<<"fine will be 0.5rs";
+else if (days>=6 && days<=10)cout<<"fine will be 1rs";
+else if (days>10)cout<<"fine will bw 5rs";
+else if (days>30) cout<<"membership canceled";
+	return 0;
+}
