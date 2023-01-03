@@ -1,0 +1,9 @@
+Q1. hello world
+ans-
+             #include <iostream>
+             using namespace std;
+             int main() 
+            {
+              printf("Hello, World!");
+              return 0;
+            }
